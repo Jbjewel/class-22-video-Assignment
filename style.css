@@ -1,0 +1,267 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+/* header style start */
+.jhon-header span {
+    display: inline-block;
+    background: #6278DF;
+    color: #fff;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    font-size: 29px;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+}
+.jhon-menu a.nav-link {
+    padding-left: 43px !important;
+    padding-right: 14px !important;
+}
+/* header style end */
+
+
+/* slider section start */
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+   padding: 200px 0;
+   position: relative;
+   z-index: 1;
+}
+.slider-caption h2 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.slider-caption h4 {
+    font-weight: 400;
+    margin-top: -47px;
+    font-size: 29px;
+    margin-bottom: 49px;
+}
+
+
+.slider-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+
+}
+.slider-caption .form-control {
+    padding: 15px 17px;
+}
+.slider-caption button {
+    padding: 12px 58px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFF !important;
+    background: none repeat scroll 0% 0% #5BA533 !important;
+}
+/* slider section end */
+
+/* Counter section Start */
+.number-items .h2{
+    font-size: 50px;
+}
+.number-items .text-muted{
+    font-size: 23px;
+}
+/* Counter section end */
+
+/* About section start */
+.about-section{
+    background: #F7F9FF;
+}
+.about-text-left h2 {
+    margin-top: 146px;
+    font-size: 39px;
+    font-weight: 600;
+}
+.about-text-left p {
+    font-size: 20px;
+    line-height: 2.6rem;
+    margin-top: 22px;
+}
+/* About section end */
+
+/* feautre-section section Start */
+.feautre-section{
+
+}
+.feautre-items{
+   height: 300px; 
+   box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-img img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left:-60px;
+}
+.right-content{
+    width: 60%;
+    padding: 28px;
+}
+.right-content h5{}
+.right-content p{}
+/* feautre-section section end */
+
+/* protfolio section start */
+.portfolio-section{}
+
+.portfolio-items a{
+    display: block;
+    position: relative;
+}
+.portfolio-items a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(98,120,223,0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+
+}
+.portfolio-items:hover a::after{
+    opacity: 1;
+    visibility: visible;
+
+}
+/* protfolio section end */
+
+/* pricing section start */
+.pricing-section{
+    background: #F7F9FF;
+}
+.pricing-items{
+    padding: 50px;
+    background: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border-radius: 5px;
+}
+.pricing-items h2{}
+.pricing-items h5{}
+.pricing-items ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.pricing-items ul li {
+    margin-top: 20px;
+    margin-bottom: 33px;
+    font-size: 25px;
+    color: #777;
+}
+.pricing-items ul li span {
+    display: inline-block;
+    color: #6278DF;
+    font-weight: bold;
+    width: 34px;
+}
+.pricing-items-button a {
+    border-color: #6278DF;
+    border-width: 2px;
+    padding: 12px 40px;
+    font-size: 28px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+/* pricing section end  */
+
+/* testiomoinal section start  */
+.testiomonial-items h5 {
+    font-size: 36px !important;
+}
+.testiomonial-items h1 {
+    font-size: 44px !important;
+    font-weight: 500;
+    margin-bottom: -14px !important;
+}
+.testiomonial-items span {
+    font-size: 78px;
+    opacity: .1;
+}
+.testiomonial-items p {
+    font-size: 20px;
+    width: 817px;
+    margin: auto;
+    margin-bottom: 20px;
+}{}
+.author-info {
+    width: 250px;
+    margin: auto;
+}
+.author-info img {
+    width: 89px;
+}
+.author-details {
+    float: left;
+    position: relative;
+    top: -73px;
+    margin-left: -160px;
+}
+.author-details h5 {
+    font-size: 25px !important;
+}
+.author-details p {
+    font-size: 18px !important;
+    margin-left: -15px;
+}
+/* testiomoinal section end  */
+
+/* About-section  start  */
+.aboout-section{
+    background: #F7F9FF;
+}
+.m-top{
+    margin-top: 100px;
+}
+.about-items .card{}
+.about-items .card img {
+    width: 119px;
+    height: auto;
+    margin-top: -69px;
+    margin-left: 15px;
+}
+/* About-section  end  */
+
+/* Contact section start */
+.contract-form .card{
+    padding: 50PX;
+}
+.jon-css{
+
+}
+.footer-top{
+    padding: 100px;
+}
+/* Contact section end */
+
+/* footer section start*/
+.footer{
+    background: #F7F9FF;
+    padding: 25px;
+}
+.footer p{
+    text-align: center;
+    font-size: 25px;
+}
+/* footer section end*/
